@@ -1,22 +1,69 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #282C34;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #212529;
 }
 
-#googleMap{
-    width:100%;
-    height:400px;
-    background-color: red;
+.navbar {
+    background-color: #ffba4a;
+    border-radius: 10px;
 }
-img{
+
+.navbar-brand,
+.nav-link:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+}
+
+img {
     border-radius: 15px;
 }
 
-.card body{
+.card body {
     border-radius: 20px;
 }
-h5{
+
+h5 {
     margin-top: 10px;
     font-weight: bolder;
+}
+
+.başlık {
+    background-color: #05b3cf;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    color: #ffba4a;
+}
+
+.row .card {
+    border-radius: 20px;
+}
+
+.card-body {
+    border-radius: 15px;
+}
+
+.p-5 {
+    border-radius: 15px;
+    margin: 10px;
 }
